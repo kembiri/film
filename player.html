@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Memuat...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.plyr.io/3.5.6/plyr.css" rel="stylesheet"/>
+  <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="season-list">
+    <h4 id="judul">Memuat...</h4>
+
+    <div class="playlist-dropdown">
+      <select id="playlist-select">
+        <option disabled selected>Pilih Episode</option>
+      </select>
+    </div>
+</div>
+
+    <video class="js-player" controls playsinline poster="" webkit-playsinline>
+      <source src="" type="video/mp4"/>
+    </video>
+
+    <style>
+        video.js-player {
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: #000; 
+}
+    </style>
+
+    <div class="custom-controls">
+        <div class="rewind-group">
+          <button id="rewind-30">-30s</button>
+          <button id="rewind-3">-3</button>
+          <button id="rewind-5">-5</button>
+          <button id="rewind-10">-10</button>
+        </div>
+        <div class="forward-group">
+          <button id="forward-30">+30s</button>
+          <button id="forward-3">+3</button>
+          <button id="forward-5">+5</button>
+          <button id="forward-10">+10</button>
+        </div>
+      </div>    
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+    const data = JSON.parse(localStorage.getItem('filmData')) || [];
+  
+    const film = data.find(f => f.slug === slug);
+    const judulEl = document.getElementById('judul');
+    const select = document.getElementById('playlist-select');
+    const video = document.querySelector('video');
+  
+    if (!film) {
+      judulEl.textContent = 'Film tidak ditemukan.';
+    } else {
+      document.title = film.title;
+      judulEl.textContent = film.title;
+      
+      video.setAttribute('poster', film.image || film.poster || '');
+  
+      if (Array.isArray(film.episodes)) {
+        film.episodes.forEach(ep => {
+          const option = document.createElement('option');
+          option.value = ep.url;
+          option.textContent = ep.label;
+          select.appendChild(option);
+        });
+      } else {
+        const option = document.createElement('option');
+        option.value = film.url;
+        option.textContent = 'Full Movie';
+        select.appendChild(option);
+      }
+    }
+  
+    const player = Plyr.setup('.js-player', {
+      controls: ['play-large','rewind','play','fast-forward','progress','current-time','duration','mute','volume','fullscreen']
+    })[0];
+  
+    select.addEventListener('change', (e) => {
+      player.source = {
+        type: 'video',
+        sources: [{ src: e.target.value, type: 'video/mp4' }]
+      };
+    });
+  
+    function skip(seconds) {
+      player.currentTime = Math.max(0, player.currentTime + seconds);
+    }
+  
+    document.getElementById('rewind-30').onclick = () => skip(-30);
+    document.getElementById('rewind-3').onclick  = () => skip(-180);
+    document.getElementById('rewind-5').onclick  = () => skip(-300);
+    document.getElementById('rewind-10').onclick = () => skip(-600);
+    document.getElementById('forward-30').onclick = () => skip(30);
+    document.getElementById('forward-3').onclick  = () => skip(180);
+    document.getElementById('forward-5').onclick  = () => skip(300);
+    document.getElementById('forward-10').onclick = () => skip(600);
+  </script> 
+  
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto 10px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .season-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .season-list h4 {
+      margin: 0;
+    }
+  
+    .playlist-dropdown {
+      text-align: right;
+    }
+  
+    .custom-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 20px auto 10px;
+      padding: 10px;
+      max-width: 500px;
+    }
+  
+    .custom-controls button {
+      flex: 1 1 20%;
+      min-width: 60px;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #2c3e50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+  
+    .custom-controls button:hover {
+      background-color: #34495e;
+    }
+  
+    .avatar {
+      width: 150px;
+      height: 150px;
+      box-sizing: border-box;
+      border: 5px solid white;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+      animation: float 6s ease-in-out infinite;
+    }
+  
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      .avatar {
+        width: 50px;
+        height: 50px;
+      }
+  
+      .custom-controls {
+        gap: 8px;
+        padding: 5px;
+      }
+  
+      .custom-controls button {
+        font-size: 12px;
+        padding: 8px;
+        flex: 1 1 40%;
+      }
+    }
+  
+    @media only screen and (min-width: 601px) and (max-width: 992px) {
+      .avatar {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+  
+</body>
+</html>
