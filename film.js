@@ -94,6 +94,80 @@ const filmData = [
     ],
   },
   {
+  title: "When Life Gives You Tangerines (2025)",
+    slug: "when-life-gives-you-tangerines-2025",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNDU5NTY2YjgtNGZjNy00MTk2LWExM2QtOTdlMjhjZTE5MTMxXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BOWNmOTE3NmUtYTE3My00MjhiLTk1NzEtN2RlMWE5MzQyYjE5XkEyXkFqcGc@._V1_FMjpg_UX1024_.jpg",
+    episodes: [
+      {
+        label: "Episode 1",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%201%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 2",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%202%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 3",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%203%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 4",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%204%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 5",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%205%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 6",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%206%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 7",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%207%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 8",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%208%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 9",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%209%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 10",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2010%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 11",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2011%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 12",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2012%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 13",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2013%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 14",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2014%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 15",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2015%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 16",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-When%20Life%20Gives%20You%20Tangerines%20-%20Season%2016%20Episode%201%20(2025)-1080p.mp4?alt=media&token=",
+      },
+    ],
+  },
+  {
     title: "Doctor John (2019)",
     slug: "doctor-jhon-2019",
     poster:
