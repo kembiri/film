@@ -1,33 +1,34 @@
-body {
-  font-family: sans-serif;
-  background: url(https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms38.png)
-    repeat;
-  color: white;
-  margin: 0;
-  padding: 1rem;
-}
+ body {
+      font-family: sans-serif;
+      background: url(https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms38.png) repeat;
+      color: white;
+      margin: 0;
+      padding: 1rem;
+    }
 
-h1 {
-  text-align: center;
-}
+    h1 {
+      text-align: center;
+    }
 
-.logo-container {
-  text-align: center;
-  margin-bottom: 20px;
-}
+    .logo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-.logo {
-  max-width: 200px;
-  height: auto;
-}
+    .logo {
+      max-width: 200px;
+      height: auto;
+    }
 
-.filters {
+    .filters {
       display: flex;
       gap: 1rem;
       flex-wrap: wrap;
-      margin-bottom: 1rem;
+      margin: 1rem auto;
+      justify-content: center;
     }
-select {
+
+    select {
       background: #1e1e1e;
       color: white;
       padding: 0.5rem;
@@ -35,86 +36,77 @@ select {
       border: 1px solid #555;
     }
 
-.film-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
+    .film-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+      margin: 2rem auto;
+      max-width: 1200px;
+    }
 
+    .movie-card {
+      background: #1f1f1f;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      display: block;
+      position: relative;
+    }
 
-#movie-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-  max-width: 1200px;
-  margin: auto;
-}
+    .movie-card:hover {
+      transform: scale(1.03);
+    }
 
-.movie-card {
-  background: #1f1f1f;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.2s;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-  display: block;
-  position: relative;
-}
+    .card-wrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 8px;
+    }
 
-.movie-card:hover {
-  transform: scale(1.03);
-}
+    .card-wrapper img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+      border-radius: 8px;
+    }
 
-.card-wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 8px;
-}
+    .episode-badge {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      padding: 2px 6px;
+      font-size: 12px;
+      border-radius: 4px;
+      z-index: 1;
+      font-weight: bold;
+    }
 
-.card-wrapper img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-  border-radius: 8px;
-}
+    .movie-title {
+      display: block;
+      padding: 0.5rem;
+      font-weight: bold;
+      font-size: 0.9rem;
+      text-align: center;
+    }
 
-.episode-badge {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  background-color: rgba(0, 0, 0, 0.75);
-  color: #fff;
-  padding: 2px 6px;
-  font-size: 12px;
-  border-radius: 4px;
-  z-index: 1;
-  font-weight: bold;
-}
+    @media (max-width: 600px) {
+      .film-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
 
-.movie-title {
-  display: block;
-  padding: 0.5rem;
-  font-weight: bold;
-  font-size: 0.9rem;
-  text-align: center;
-}
+      .card-wrapper img {
+        height: 100px;
+      }
 
-@media (max-width: 600px) {
-  #movie-container {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .card-wrapper img {
-    height: 100px;
-  }
-
-  .movie-title {
-    font-size: 0.7rem;
-  }
-}
+      .movie-title {
+        font-size: 0.7rem;
+      }
+    }
