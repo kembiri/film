@@ -2,6 +2,9 @@ const filmData = [
   {
     title: "The Doctors (2016)",
     slug: "the-doctors-2016",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEhMmLvfv8SmwhgaVB3AXTkJE0bBSADiJwITNzV29n2kYaVHOLrLVLStdxG4y0hC4q8UjqMQ4xDr5mCR8pTABfi-VNdl5ZfAX95Omznwhqb2ApUo0b3exQ8e9ejeY52OLXVeb8Gb68AkO1p3fj0zGM31VCRbrNtvK-2iv6uxDEosrP0tc4ju4UF2OrOM=s320",
     image:
@@ -96,6 +99,9 @@ const filmData = [
   {
   title: "When Life Gives You Tangerines (2025)",
     slug: "when-life-gives-you-tangerines-2025",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://m.media-amazon.com/images/M/MV5BNDU5NTY2YjgtNGZjNy00MTk2LWExM2QtOTdlMjhjZTE5MTMxXkEyXkFqcGc@._V1_FMjpg_UX1200_.jpg",
     image:
@@ -170,6 +176,9 @@ const filmData = [
   {
     title: "Doctor John (2019)",
     slug: "doctor-jhon-2019",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://thumbor.prod.vidiocdn.com/6taUK6BuVGwGACaI9b4ZTyJLrxA=/223x332/filters:quality(75)/vidio-web-prod-film/uploads/film/image_portrait/1299/doctor-john-c7cd2a.jpg",
     image:
@@ -244,6 +253,9 @@ const filmData = [
   {
     title: "Doctor Stranger (2014) - Season 1",
     slug: "doctor-stranger-2014",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEjeWSjaQLo2LytW17c3FFcVpX5g0KReQjiyEaJj80SkHN66yLfg4HePwK6FiO-YdNN3m36pUnV9nLmb6msw7FjXwWmgdLDGDx29LBJ0i-mPJ_feufh9gG5yrSxb8r0dYJ_LVHPSLSU0BTy-HYbFSBMYcHIaFqRS-7CJUCNHDxkUVo48tOW6g9asJKWq=s320",
     image:
@@ -334,6 +346,9 @@ const filmData = [
   {
     title: "Revolutionary Love (2017)",
     slug: "revolutionary-love-2017",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEixtae09lax2_Qqd_wL-4SV0HTpDLMtVslL_Wsp3v5EBUb1I3NH6g_qQea5jcT3LtuW_XfRQhSKyFKZ6fghr5hbQnOR1IrObnYaATj6pzwxCyiqi4mj3O2IaLnSHvn0vrPQWtEYEuFNGLlhAR0alolU11iKt862sbvr90LksAhuo-_OHw_p898PyrS8",
     image:
@@ -412,6 +427,9 @@ const filmData = [
   {
     title: "The Inheritors (2013)",
     slug: "the-inheritors-2013",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEhIsAKGDcfCUMtGDUqt7clPSzVkioHamHugExqP7oAOU6u4oxnDqIYXqTuytb45tKc_szIl8We5VHV1gSJ4MjzHJOhSiewZD3ukgIa2uEUe081oTkzEo01mH0XIOYGSrNEq7ha_EJ40_2nBn9zhAC4KvY5F_GhgF39N7ew6pIAKkjPQI_Lb7bh9a8rC",
     image:
@@ -502,6 +520,9 @@ const filmData = [
   {
     title: "Pinocchio (2014)",
     slug: "pinocchio-2014",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEi4p4LmcyWqZ1tbX7qBQ-G8xLa-VBXwYm-75xTfuLKDGgIaaZSZweRpGslNV9WULGYIAlnAB550CnMAmad-WES2IzkW2pkrVz__MfPDGDiKwlRF4FFD3qCioY0IcnBTw8Npo6M6mE-UMzIV44Y_WDN8c2FzLgAKw4vuos_JPLzcTWxscb8lWF1OaYb8",
     image:
@@ -592,6 +613,9 @@ const filmData = [
   {
     title: "Romantic Doctor, Teacher Kim 1 (2016)",
     slug: "romantic-doctor-teacher-kim-1-2016",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEgcjHNLAUeNEgU0Rn81C4kfwB-ZowoaqaBHaNQ-OEm3ru_gRUzD-GufWVOf5oiwLg5iVMfaqeNb_QGCvykb_GhWxzp2kF1AKBR_u6a910ERqyhDgWZi3LfRgbs-8v9XVfJrhciBg5uNvlOZfJiFdraYii10Y0ogZ8mPSziBHQq7YAZED1wBE7Ps8rkU=s320",
     image:
@@ -682,6 +706,9 @@ const filmData = [
   {
     title: "What's Wrong With Secretary Kim (2018)",
     slug: "whats-wrong-with-secretary-kim-2018",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEg7a0lMbqVnOKmAN3FeomXAHa7Mg64X9WivsQuEUfyiCk3OApAM5-2ynQfgxXZpSatOztskN8hM8R3q6PEZN4y3h6O5LTZ2DdNo2F_u8siUAUR20wzmMk36ekT7l2AMJAzXmlFU-Tpo88VTgWFSuoPs5MbSIGnOhzJk2gM40ujcNgW6VxpcjPMRBWIY",
     image:
@@ -756,6 +783,9 @@ const filmData = [
   {
     title: "Blood Free (2024) - Season 1",
     slug: "blood-free-2024-season-1",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gxd86XTik9QfPLXxbMiMdsg407V.jpg",
     image:
@@ -806,6 +836,9 @@ const filmData = [
   {
     title: "Lawless Lawyer (Mubeop Byeonhosa) (2018)",
     slug: "lawless-lawyer-2018",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEg2zzNIq8PPMuQskBsFGLnWTXO6DKsRSlzvSRNAaXYrGi5Li2bhfauCauMs9fryJo10nNI3asC0iQIwm9HrkOMkbbKaYXfQePVMIwTezciTFy91xihYf8Kq4jKumsa5lsdBzVWNIHXO8tQZaQaYt6NRGUtiIReDNIt8y_YAsi7Vz0jo8Q0G7IdeYfcM=s320",
     image:
@@ -880,6 +913,9 @@ const filmData = [
   {
     title: "Start-Up (Seutateueob) Season 1 (2020)",
     slug: "start-up-2020",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEjEaTQd1nzpgHXcy1TEk3g5l2CziT0jtlL4tXFPOiC1lI5ECgSGJNBcaOusoxSM0mI8EiD0L46nxXZ32Ja20lPntR7Zy_2VXQCWABDkGM7p6KbRzrm6jlcY5b4Qbb8-rEa6y1GCtJhzyirf_Wwwxa6SORfGjKyGzXW7_i3_LTITF3aX3I3sYSocj-W0=s320",
     image:
@@ -954,6 +990,9 @@ const filmData = [
   {
     title: "Yong-pal (The Gang Doctor) (2015)",
     slug: "yong-pal-the-gang-doctor-2015",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://thumbor.prod.vidiocdn.com/tPHYwTrtiVg19WYnNmiO-BH13GA=/223x332/filters:quality(75)/vidio-web-prod-film/uploads/film/image_portrait/642/the-gang-doctor-6f478d.jpg",
     image:
@@ -1036,6 +1075,9 @@ const filmData = [
   {
     title: "The K2 (2016)",
     slug: "the-k2-2016",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEhz7RrHdHVTn44qx5g1jMo27WSHZmJceESLM6FHq-YWhr6csZ_fjeNd4WLKSUQgZjPeHIQ3lm_NYhePhksIsfnMUDA8qKG8Dr-6TjOY6Y53BQxjgYq6AhFkmozs8IvsZxcd9fGfRDy1D7D1gInSPO0rmz1mfLuC3Nb_ooS1q2GXw9G0BHYPY0jIs2cl=s320",
     image:
@@ -1110,6 +1152,9 @@ const filmData = [
   {
     title: "Itaewon Class (Itaewon Keullasseu) (2020)",
     slug: "itaewon-class-2020",
+    type: "Serial",
+    genre: ["Drama", "Komedi"],
+    country: "Korea",
     poster:
       "https://m.media-amazon.com/images/M/MV5BODEyZmVlMWEtYjNmNS00MTQ5LThlMzgtZjM4YjNhMGVkZWI4XkEyXkFqcGc@._V1_FMjpg_UX800_.jpg",
     image:
@@ -1184,6 +1229,9 @@ const filmData = [
   {
     title: "The Flu (2013)",
     slug: "the-flu-2013",
+    type: "Movie",
+    genre: ["Romantis", "Komedi"],
+    country: "Korea",
     poster:
       "https://blogger.googleusercontent.com/img/a/AVvXsEjsqZle7bjW-OIXVZ3QOjz8UbqVjoAU_HkiGcK_sITlKIH_I_SVnm82lNrg5yld8vhuBYWbj7hcioGMhx3ffWKAxvNzeqLi9ZhK_HJ2FF16FFTJvZtYscASwTXUdJOllFY_XDSI84LbANfhxpepcnfXOJvY4wL-EYRlSU0T3RewQWDvrqCN7RgqDJN1",
     image:
@@ -1193,6 +1241,9 @@ const filmData = [
   {
     title: "Kung Fu Hustle (2004)",
     slug: "kung-fu-hustle-2004",
+    type: "Movie",
+    genre: ["Action", "Komedi"],
+    country: "China",
     poster: "https://image.tmdb.org/t/p/w500/exbyTbrvRUDKN2mcNEuVor4VFQW.jpg",
     image:
       "https://thumbor.prod.vidiocdn.com/8QSJxkDzeTsey3esZoaloy3VxWE=/785x440/filters:quality(70)/vidio-web-prod-video/uploads/video/image/7448477/kung-fu-hustle-d7a214.jpg",
@@ -1201,6 +1252,9 @@ const filmData = [
   {
     title: "Shaolin Soccer (2001)",
     slug: "shaolin-soccer-2001",
+    type: "Movie",
+    genre: ["Action", "Komedi"],
+    country: "China",
     poster: "https://image.tmdb.org/t/p/w500/kVpq68NxChzynK7otaymRSaWR8p.jpg",
     image:
       "https://about.vidio.com/wp-content/uploads/2022/07/SVOD-Shaolin-Soccer-Alt-A-Thumbnail.jpg",
