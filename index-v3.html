@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daftar Film</title>
+  <link href='https://raw.githack.com/kembiri/film/refs/heads/main/style-v3.css' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+  <h1>Daftar Film</h1>
+  <div class="filters">
+    <select id="typeFilter">
+      <option value="">Semua Tipe</option>
+    </select>
+    <select id="genreFilter">
+      <option value="">Semua Genre</option>
+    </select>
+    <select id="countryFilter">
+      <option value="">Semua Negara</option>
+    </select>
+  </div>
+
+  <div id="serial-container">
+  <h2>Serial</h2>
+  <div class="film-list" id="serial-list"></div>
+</div>
+
+<div id="movie-container">
+  <h2>Movie</h2>
+  <div class="film-list" id="movie-list"></div>
+</div>
+
+<script src="https://raw.githack.com/kembiri/film/refs/heads/main/film-v2.js"></script>
+  <script src="https://raw.githack.com/kembiri/film/refs/heads/main/script-v3.js"></script>
+</body>
+</html>
