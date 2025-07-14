@@ -1,6 +1,7 @@
  body {
       font-family: sans-serif;
-      background: url(https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms38.png) repeat;
+      //background: url(https://www.codewithrandom.com/wp-content/uploads/2022/11/15-Bootstrap-login-forms38.png) repeat;
+      background: darkslategrey;
       color: white;
       margin: 0;
       padding: 1rem;
