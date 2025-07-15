@@ -1271,4 +1271,15 @@ const filmData = [
       "https://m.media-amazon.com/images/M/MV5BMzdhNGZhMjQtYjVmNy00OWMyLTk1MmQtZGNhZDYwMzZlZjI3XkEyXkFqcGc@._V1_SX300.jpg",
     url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21.FUN-Kingdom%20of%20Heaven%20(2005)-1080p.mp4?alt=media&token=e8d1eb06-0583-4892-8122-36c2b956201e",
   },
+  {
+    title: "The Matrix (1999)",
+    slug: "the-matrix-1999",
+    type: "Movie",
+    genre: ["Action", "Sci-fi"],
+    country: "Amerika",
+    poster: "https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-the-matrix-1999.jpg.webp",
+    image:
+      "https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-the-matrix-1999.jpg.webp",
+    url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FThe%20Matrix%20(1999)-1080p.mp4?alt=media&token=",
+  },
 ];
