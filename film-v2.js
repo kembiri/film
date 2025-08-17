@@ -1282,15 +1282,4 @@ const filmData = [
       "https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-the-matrix-1999.jpg.webp",
     url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FThe%20Matrix%20(1999)-1080p.mp4?alt=media&token=",
   },
-  {
-    title: "A Little Thing Called Love (2010)",
-    slug: "a-little-thing-called-love-2010",
-    type: "Movie",
-    genre: ["Comedy", "Romance"],
-    country: "Thailand",
-    poster: "https://s1.lk21static.buzz/wp-content/uploads/2016/01/film-a-little-thing-called-love-2010.jpg.webp",
-    image:
-      "https://s1.lk21static.buzz/wp-content/uploads/2016/01/film-a-little-thing-called-love-2010.jpg.webp",
-    url: "https://short.icu/9Ec5EFazg",
-  },
 ];
