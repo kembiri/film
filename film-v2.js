@@ -1300,6 +1300,23 @@ const filmData = [
     ],
   },
   {
+    title: "SKY Castle (2018) [⏳ Segera Hadir]",
+    slug: "sky-castle-2018",
+    type: "Serial",
+    genre: ["Drama", "Misteri"],
+    country: "Korea",
+    poster:
+      "https://poster.lk21.party/wp-content/uploads/2022/09/film-sky-castle-2018-lk21-d21.jpg",
+    image:
+      "https://poster.lk21.party/wp-content/uploads/2022/09/film-sky-castle-2018-lk21-d21.jpg",
+    episodes: [
+      {
+        label: "Trailer",
+        url: "https://youtu.be/P6coIgyV9e0",
+      },
+      ],
+  },
+  {
     title: "The Flu (2013)",
     slug: "the-flu-2013",
     type: "Movie",
