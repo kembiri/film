@@ -1233,9 +1233,9 @@ const filmData = [
     genre: ["Drama", "Romantis"],
     country: "Korea",
     poster:
-      "https://convert.d-cdn.me/convert/aHR0cHM6Ly9pbWcxLmRyYWtvci5jYy91cGxvYWRzLzIwMTcvMDQvNDU4LWQ2YzRhMzAzYzkuanBn/256x368/1.jpg",
+      "https://image.tmdb.org/t/p/w370_and_h556_bestv2/r8S5PPexZgRLdIjysFCgTHj8TLI.jpg",
     image:
-      "https://convert.d-cdn.me/convert/aHR0cHM6Ly9pbWcxLmRyYWtvci5jYy91cGxvYWRzLzIwMTcvMDQvNDU4LWQ2YzRhMzAzYzkuanBn/256x368/1.jpg",
+      "https://image.tmdb.org/t/p/w370_and_h556_bestv2/r8S5PPexZgRLdIjysFCgTHj8TLI.jpg",
     episodes: [
       {
         label: "Episode 1",
