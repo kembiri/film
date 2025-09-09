@@ -1299,6 +1299,59 @@ const filmData = [
       },      
     ],
   },
+{
+    title: "My Boss - Season 1(2024)",
+    slug: "my-boss-2024",
+    type: "Serial",
+    genre: ["Drama", "Comedy"],
+    country: "China",
+    poster:
+      "https://poster.lk21.party/wp-content/uploads/2024/01/film-my-boss-2024-lk21-d21.jpg.webp",
+    image:
+      "https://poster.lk21.party/wp-content/uploads/2024/01/film-my-boss-2024-lk21-d21.jpg.webp",
+    episodes: [
+      {
+        label: "Episode 1",
+        url: "https://short.icu/KpngZsc6A",
+      },
+      {
+        label: "Episode 2",
+        url: "https://short.icu/BVvBjeBps",
+      },
+      {
+        label: "Episode 3",
+        url: "https://short.icu/x3ae-4QuG",
+      },
+      {
+        label: "Episode 4",
+        url: "https://short.icu/vC46ucerV",
+      },
+      {
+        label: "Episode 5",
+        url: "https://short.icu/Yp9ruIDt0",
+      },
+      {
+        label: "Episode 6",
+        url: "https://short.icu/6KPEANyeS",
+      },
+      {
+        label: "Episode 7",
+        url: "https://short.icu/9kZdxjjX9",
+      },
+      {
+        label: "Episode 8",
+        url: "https://short.icu/ZMLyirpMH",
+      },
+      {
+        label: "Episode 9",
+        url: "https://short.icu/3GuBm79YK",
+      },
+      {
+        label: "Episode 10",
+        url: "https://short.icu/4rmKSUH24",
+      },
+      ],
+  },  
   {
     title: "SKY Castle (2018) [⏳ Segera Hadir]",
     slug: "sky-castle-2018",
