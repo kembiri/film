@@ -1312,43 +1312,43 @@ const filmData = [
     episodes: [
       {
         label: "Episode 1",
-        url: "https://short.icu/KpngZsc6A",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/KpngZsc6A",
       },
       {
         label: "Episode 2",
-        url: "https://short.icu/BVvBjeBps",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/BVvBjeBps",
       },
       {
         label: "Episode 3",
-        url: "https://short.icu/x3ae-4QuG",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/x3ae-4QuG",
       },
       {
         label: "Episode 4",
-        url: "https://short.icu/vC46ucerV",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/vC46ucerV",
       },
       {
         label: "Episode 5",
-        url: "https://short.icu/Yp9ruIDt0",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/Yp9ruIDt0",
       },
       {
         label: "Episode 6",
-        url: "https://short.icu/6KPEANyeS",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/6KPEANyeS",
       },
       {
         label: "Episode 7",
-        url: "https://short.icu/9kZdxjjX9",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/9kZdxjjX9",
       },
       {
         label: "Episode 8",
-        url: "https://short.icu/ZMLyirpMH",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/ZMLyirpMH",
       },
       {
         label: "Episode 9",
-        url: "https://short.icu/3GuBm79YK",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/3GuBm79YK",
       },
       {
         label: "Episode 10",
-        url: "https://short.icu/4rmKSUH24",
+        url: "https://playeriframe.netlify.app/?url=https://short.icu/4rmKSUH24",
       },
       ],
   },  
