@@ -1300,7 +1300,7 @@ const filmData = [
     ],
   },
 {
-    title: "My Boss - Season 1(2024)",
+    title: "My Boss - Season 1 (2024)",
     slug: "my-boss-2024",
     type: "Serial",
     genre: ["Drama", "Comedy"],
