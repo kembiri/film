@@ -1306,9 +1306,9 @@ const filmData = [
     genre: ["Drama", "Comedy"],
     country: "China",
     poster:
-      "https://poster.lk21.party/wp-content/uploads/2024/01/film-my-boss-2024-lk21-d21.jpg.webp",
+      "https://media.themoviedb.org/t/p/w260_and_h390_bestv2/KjrmpcxafFVm12TWNHEhD0ZBpu.jpg",
     image:
-      "https://poster.lk21.party/wp-content/uploads/2024/01/film-my-boss-2024-lk21-d21.jpg.webp",
+      "https://media.themoviedb.org/t/p/w260_and_h390_bestv2/KjrmpcxafFVm12TWNHEhD0ZBpu.jpg",
     episodes: [
       {
         label: "Episode 1",
@@ -1352,23 +1352,6 @@ const filmData = [
       },
       ],
   },  
-  {
-    title: "SKY Castle (2018) [⏳ Segera Hadir]",
-    slug: "sky-castle-2018",
-    type: "Serial",
-    genre: ["Drama", "Misteri"],
-    country: "Korea",
-    poster:
-      "https://poster.lk21.party/wp-content/uploads/2022/09/film-sky-castle-2018-lk21-d21.jpg",
-    image:
-      "https://poster.lk21.party/wp-content/uploads/2022/09/film-sky-castle-2018-lk21-d21.jpg",
-    episodes: [
-      {
-        label: "Trailer",
-        url: "https://youtu.be/P6coIgyV9e0",
-      },
-      ],
-  },
   {
     title: "The Flu (2013)",
     slug: "the-flu-2013",
@@ -1420,9 +1403,9 @@ const filmData = [
     type: "Movie",
     genre: ["Action", "Sci-fi"],
     country: "Amerika",
-    poster: "https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-the-matrix-1999.jpg.webp",
+    poster: "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
     image:
-      "https://s5.lk21static.buzz/wp-content/uploads/2015/12/film-the-matrix-1999.jpg.webp",
+      "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
     url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FThe%20Matrix%20(1999)-1080p.mp4?alt=media&token=",
   },
 ];
