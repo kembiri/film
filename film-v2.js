@@ -1156,7 +1156,7 @@ const filmData = [
     genre: ["Drama", "Komedi"],
     country: "Korea",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BODEyZmVlMWEtYjNmNS00MTQ5LThlMzgtZjM4YjNhMGVkZWI4XkEyXkFqcGc@._V1_FMjpg_UX800_.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/9/99/Itaewon_Class.jpg",
     image:
       "https://blackrose.id/wp-content/uploads/2020/03/itaewon_class-mp1_ratio-16x9-1.jpg",
     episodes: [
