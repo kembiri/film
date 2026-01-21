@@ -1239,44 +1239,148 @@ const filmData = [
     episodes: [
       {
         label: "Episode 1",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/KpngZsc6A",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FNonton%20Drama%20China%20My%20Boss%20(2024)%20Episode%201%20Subtitle%20Indonesia%20-%20Drakor.id.mp4?alt=media&token=",
       },
       {
         label: "Episode 2",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/BVvBjeBps",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FNonton%20Drama%20China%20My%20Boss%20(2024)%20Episode%202%20Subtitle%20Indonesia%20-%20Drakor.id.mp4?alt=media&token=",
       },
       {
         label: "Episode 3",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/x3ae-4QuG",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-3.mp4?alt=media&token=",
       },
       {
         label: "Episode 4",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/vC46ucerV",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-4.mp4?alt=media&token=",
       },
       {
         label: "Episode 5",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/Yp9ruIDt0",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-5.mp4?alt=media&token=",
       },
       {
         label: "Episode 6",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/6KPEANyeS",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-6.mp4?alt=media&token=",
       },
       {
         label: "Episode 7",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/9kZdxjjX9",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-7.mp4?alt=media&token=",
       },
       {
         label: "Episode 8",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/ZMLyirpMH",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-8.mp4?alt=media&token=",
       },
       {
         label: "Episode 9",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/3GuBm79YK",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-9.mp4?alt=media&token=",
       },
       {
         label: "Episode 10",
-        url: "https://playeriframe.netlify.app/?url=https://short.icu/4rmKSUH24",
-      },  
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-10.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 11",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-11.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 12",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-12.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 13",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-13.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 14",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-14.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 15",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-15.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 16",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-16.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 17",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-17.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 18",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-18.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 19",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-9.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 20",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-20.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 21",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-21.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 22",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-22.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 23",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-23.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode24",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-24.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 25",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-25.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 26",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-26.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 27",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-27.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 28",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-28.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 29",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-29.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 30",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-30.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 31",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-31.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 32",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-32.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 33",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-33.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 34",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-34.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 35",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-35.mp4?alt=media&token=",
+      },
+      {
+        label: "Episode 36",
+        url: "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fdrakor.id.720p.my-boss-2024-episode-36.mp4?alt=media&token=",
+      },
     ],
   },
   {
